@@ -45,6 +45,14 @@ NC_000962.3_CRyPTIC_v1.0_GARC1_RUS.pkl
 
 Note that there are small but significant differences between version2 and version3 of the NC_000962/H37rV reference so e.g. the two versions of the NEJM2018 catalogues are slightly different!
 
+## Citations
+
+If you use these catalogues, please cite
+
+1. Walker TM, Kohl TA, Omar S V, Hedge J, Del Ojo Elias C, Bradley P, Iqbal Z, Feuerriegel S, Niehaus KE, Wilson DJ, Clifton DA, Kapatai G, Ip CLC, Bowden R, Drobniewski FA, Allix-Béguec C, Gaudin C, Parkhill J, Diel R, Supply P, Crook DW, Smith EG, Walker AS, Ismail N, Niemann S, Peto TEA, Modernizing Medical Microbiology (MMM) Informatics Group. 2015. Whole-genome sequencing for prediction of Mycobacterium tuberculosis drug susceptibility and resistance: a retrospective cohort study. Lancet Infec Dis 15:1193–202. [doi:10.1016/S1473-3099(15)00062-6](https://doi.org/10.1016/S1473-3099(15)00062-6)
+
+2. The CRyPTIC Consortium, 100000 Genomes Project. 2018. Prediction of Susceptibility to First-Line Tuberculosis Drugs by DNA Sequencing. New Eng J Med 379:1403–1415. [doi:10.1056/NEJMoa1800474](https://doi.org/10.1056/NEJMoa1800474)
+
 
 
 
