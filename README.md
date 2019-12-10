@@ -1,6 +1,8 @@
 # tuberculosis_amr_catalogues
 
-A collection of published genetic catalogues for AMR prediction of *M. tuberculosis*. These can then be compared, or used for testing. To ensure this each conforms to a specific file format with a naming convention.
+A collection of published genetic catalogues for AMR prediction of *M. tuberculosis*. These can then be compared, or used for testing. To ensure this each conforms to a specific file format with a naming convention. These catalogues can then be used as inputs to (https://github.com/oxfordmmm/piezo)[piezo].
+
+
 
 ## File format
 
@@ -20,6 +22,11 @@ EVIDENCE            JSON to allow a flexible reporting of the evidence used to j
 OTHER               JSON to allow for inclusion for other useful information e.g. is this a lineage-defining mutation? 
 ```
 
+## Available grammars
+
+(http://fowlerlab.org/2018/11/25/goarc-a-general-ontology-for-antimicrobial-resistance-catalogues/)[GARC]
+
+
 ## Available catalogues
 
 w.r.t version 2 of the NC_000962 / H37rV GenBank reference genome
@@ -36,7 +43,8 @@ w.r.t version 3 of the NC_000962 / H37rV GenBank reference genome
 $ ls catalogues/NC_000962.3/
 NC_000962.3.gbk                         NC_000962.3_NEJM2018_v1.0_GARC1_RUS.csv
 NC_000962.3_CRyPTIC_v1.0_GARC1_RUS.csv  NC_000962.3_NEJM2018_v1.0_GARC1_RUS.pkl
-NC_000962.3_CRyPTIC_v1.0_GARC1_RUS.pkl```
+NC_000962.3_CRyPTIC_v1.0_GARC1_RUS.pkl
+```
 
 Note that there are small but significant differences between version2 and version3 of the NC_000962/H37rV reference so e.g. the two versions of the NEJM2018 catalogues are slightly different!
 
