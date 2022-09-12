@@ -39,13 +39,11 @@ NC_000962.2_LID2015B_v1.0_GARC1_RUS.csv```
 w.r.t version 3 of the NC_000962 / H37rV GenBank reference genome
 ```
 $ ls catalogues/NC_000962.3/
-NC_000962.3.gbk                          NC_000962.3_LID2015A_v1.1_GARC1_RUS.csv
-NC_000962.3_CRyPTIC_v1.2_GARC1_RUS.csv   NC_000962.3_LID2015A_v1.1_GARC1_RUS.pkl
-NC_000962.3_CRyPTIC_v1.2_GARC1_RUS.pkl   NC_000962.3_LID2015B_v1.1_GARC1_RUS.csv
-NC_000962.3_CRyPTIC_v1.311_GARC1_RUS.csv NC_000962.3_LID2015B_v1.1_GARC1_RUS.pkl
-NC_000962.3_CRyPTIC_v1.311_GARC1_RUS.pkl NC_000962.3_NEJM2018_v1.0_GARC1_RUS.csv
-NC_000962.3_ERJ2017_v1.1_GARC1_RUS.csv   NC_000962.3_NEJM2018_v1.0_GARC1_RUS.pkl
-NC_000962.3_ERJ2017_v1.1_GARC1_RUS.pkl
+NC_000962.3_CRyPTIC_v1.2_GARC1_RUS.csv    NC_000962.3_LID2015B_v1.1_GARC1_RUS.csv
+NC_000962.3_CRyPTIC_v1.311_GARC1_RUS.csv  NC_000962.3_NEJM2018_v1.0_GARC1_RUS.csv
+NC_000962.3_ERJ2017_v1.1_GARC1_RUS.csv    NC_000962.3_NEJM2018_v1.1_GARC1_RUS.csv
+NC_000962.3.gbk                           NC_000962.3_WHO-UCN-GTB-PCI-2021.7_v1.0_GARC1_RUS.csv
+NC_000962.3_LID2015A_v1.1_GARC1_RUS.csv   WHO-UCN-GTB-PCI-2021.7.GARC.csv
 ```
 
 Note that there are small but significant differences between version2 and version3 of the NC_000962/H37rV reference so e.g. the two versions of the NEJM2018 catalogues are slightly different!
@@ -61,6 +59,7 @@ Note that there are small but significant differences between version2 and versi
 | NEJM2018   |  v1.0 | published via reference 2 below |
 | CRyPTIC  | v1.2 | unpublished; simple amalgam of NEJM2018 (INH,RIF,PZA,EMB) and ERJ2017 (other drugs) with some phyloSNPs also added |
 | CRyPTIC  | v1.311 | published via reference 4 below | 
+| WHO  | v1.0 | published via reference 5 below. Converted to GARC via [this](https://github.com/fowler-lab/who_catalogue_conversion) |
 
 
 ## Citations
@@ -74,6 +73,8 @@ If you use these catalogues, please cite
 3. Miotto P, et al. (2017) A standardised method for interpreting the association between mutations and phenotypic drug resistance in Mycobacterium tuberculosis. Eur Respir J 50(6):1701354 [doi:10.1183/13993003.01354-2017](http://doi.org/10.1183/13993003.01354-2017)
 
 4. The CRyPTIC Consortium (2021) Epidemiological cutoffs for a 96-well broth microtitre plate for high-throughput research antibiotic susceptibility testing of M . tuberculosis. medRxiv [doi:101101/2021022421252386](https://doi.org/10.1101/2021.02.24.21252386)
+
+5. World Health Organization (2021). “Catalogue of mutations in Mycobacterium tuberculosis complex and their association with drug resistance”. [ISBN: 9789240028173](https://www.who.int/publications/i/item/9789240028173)
 
 
 
