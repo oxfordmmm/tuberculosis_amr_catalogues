@@ -30,10 +30,10 @@ If the catalogue is to be interpreted by piezo, that code must understand the gr
 w.r.t version 2 of the NC_000962 / H37rV GenBank reference genome
 ```
 $ ls catalogues/NC_000962.2/
-NC_000962.2.gbk                         NC_000962.2_LID2015B_v1.0_GARC1_RUS.pkl
-NC_000962.2_LID2015A_v1.0_GARC1_RUS.csv NC_000962.2_NEJM2018_v1.0_GARC1_RUS.csv
-NC_000962.2_LID2015A_v1.0_GARC1_RUS.pkl NC_000962.2_NEJM2018_v1.0_GARC1_RUS.pkl
-NC_000962.2_LID2015B_v1.0_GARC1_RUS.csv```
+NC_000962.2.gbk                         NC_000962.2_NEJM2018_v1.0_GARC1_RUS.csv
+NC_000962.2.gbk.pkl                     NC_000962.2_TW3_v1.0_GARC1_RUS.csv
+NC_000962.2_LID2015A_v1.0_GARC1_RUS.csv NC_000962.2_TW3_v1.1_GARC1_RUS.csv
+NC_000962.2_LID2015B_v1.0_GARC1_RUS.csv
 ```
 
 w.r.t version 3 of the NC_000962 / H37rV GenBank reference genome
@@ -60,6 +60,7 @@ Note that there are small but significant differences between version2 and versi
 | CRyPTIC  | v1.2 | unpublished; simple amalgam of NEJM2018 (INH,RIF,PZA,EMB) and ERJ2017 (other drugs) with some phyloSNPs also added |
 | CRyPTIC  | v1.311 | published via reference 4 below | 
 | WHO  | v1.0 | published via reference 5 below. Converted to GARC via [this](https://github.com/fowler-lab/who_catalogue_conversion) |
+| TW3  | v1.1 | provided by UKSA, derived from reference 1. Converted to GARC via [this](https://github.com/fowler-lab/tw3_catalogue_conversion) |
 
 
 ## Citations
